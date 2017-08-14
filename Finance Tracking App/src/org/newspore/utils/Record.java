@@ -16,5 +16,13 @@ public class Record {
 	public Record() {
 		
 	}
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
+	private String Name;
+	
 
 }
